@@ -3,7 +3,7 @@ try {
     // chaine de connexion à la base de données
     $dsn = 'mysql:host=localhost;dbname=legumes;charset=utf8mb4';
     // création d'une instance de connexion à la base de données et ouverture de la connexion
-    $pdo = new PDO($dsn, 'phpUser', 'NIMva2m95dRnLawt');
+    $pdo = new PDO($dsn, 'phpUser', 'baE.pOVonNU.hE!u');
     // affichage d'un message en cas de succès
     echo 'Connexion effectuée avec le driver ' . $pdo->getAttribute(PDO::ATTR_DRIVER_NAME) . '<br>';
 } catch (PDOException $e) {
